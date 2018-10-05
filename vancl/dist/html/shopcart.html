@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车 - VANCL</title>
+    <link rel="stylesheet" href="http://localhost:2333/dist/css/_all.min.css">
+    <link rel="stylesheet" href="http://localhost:2333/dist/css/header.min.css">
+    <link rel="stylesheet" href="http://localhost:2333/dist/css/content.min.css">
+    <link rel="stylesheet" href="http://localhost:2333/dist/css/footer.min.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="header" class="clearf">
+            <a href="http://localhost:2333/dist/html/index.html" target="_blank" class="logo">
+                <img src="http://localhost:2333/dist/image/vancl-logo.png" alt="凡客诚品">
+            </a>
+            <div class="helpcenter">
+                <a href="##">帮助中心</a>
+            </div>
+            <div class="account">
+                <ul class="header-r">
+                    <li class="header-nob"> 您好,欢迎光临凡客诚品！</li>
+                    <li><a href="http://localhost:2333/dist/html/logoin.html" class="enter">登录</a>&nbsp;|&nbsp;</li>
+                    <li><a href="http://localhost:2333/dist/html/register.html" class="login">注册</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="location">
+            <em>1.我的购物车</em>
+            <span>2.填写核对信息单</span>
+            <span>3.成功提交订单</span>
+        </div>
+        <div id="shopcontent">
+            <div class="shopconttop">
+                <h2>我的购物车</h2>
+            </div>
+            <div class="tip">
+                <span>温馨提示：</span>
+                1.选购清单中的商品无法保留库存，请您及时结算。2.商品的价格和库存将以订单提交时为准。3.促销活动满减优惠将均摊至商品小计中。
+            </div>
+            <div class="clearf" id="cartproduct">
+                <div id="shopcartchange">
+                    <table class="shopcarttab" id="shopcarttab" width="100%">
+                        <colgroup>
+                            <col class="col">
+                            <col>
+                            <col class="col">
+                            <col class="col">
+                            <col class="col">
+                            <col class="col">
+                            <col class="col">
+                            <col class="col">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <input type="checkbox" id="allcheck" ><label for="allcheck">全选</label>
+                                </th>
+                                <th>商品名称</th>
+                                <th>尺寸</th>
+                                <th>单价</th>
+                                <th>数量</th>
+                                <th>优惠</th>
+                                <th>小计</th>
+                                <th>操作</th>
+                            </tr>                        
+                        </thead>
+                        <tbody id="list"></tbody>
+                    </table>
+                    <div class="blank10"></div>
+                    <div class="barsummary clearf" id="barsummary"></div>
+
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="copybody">
+            <p class="copy_nav1">
+                <span>Copyright 2007 - 2018 vancl.com All Rights Reserved</span>
+                <span class="footbold">许可证:</span>
+                <span>京ICP证100557号</span>
+                <span class="copyli4">京公网安备 11011502002400号</span>
+                <span>出版物经营许可证新出发京批字第直110138号</span>
+            </p>
+            <p>
+                <a href="##" class="ectrustprc">
+                    <img src="http://localhost:2333/dist/image/cert-redlogo.gif" alt="">
+                </a>
+                <span>
+                    <img src="http://localhost:2333/dist/image/cert-costumeorg.gif" alt="">
+                </span>
+                <a href="##">
+                    <img src="http://localhost:2333/dist/image/cert-wsjybzzx.gif" alt="">
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="blank30"></div>
+
+
+
+
+
+</body>
+</html>
+<script src="http://localhost:2333/dist/js/lib/jquery-1.11.3.js"></script>
+<script src="http://localhost:2333/dist/js/js/shopcart.js"></script>
